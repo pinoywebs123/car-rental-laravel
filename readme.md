@@ -10,3 +10,5 @@ Admin can view all transaction like reservation/reports
 Customers Informations
 Receive and send messages to customers.
 Add/Edit/Delete Cars information
+
+Basic Message System that will let customer message the admin.
