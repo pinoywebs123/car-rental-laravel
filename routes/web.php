@@ -94,8 +94,8 @@ Route::group(['prefix'=> 'admin'], function(){
 		'uses'=> 'AdminController@admin_message'
 	]);
 
-	Route::get('/gwapoko', [
-		'as'=> 'gwapo',
-		'uses'=> 'AdminController@gwapo'
+	Route::get('/gwapoko2', [
+		'as'=> 'gwapo2',
+		'uses'=> 'AdminController@gwapo2'
 	]);
 });
