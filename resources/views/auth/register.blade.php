@@ -131,12 +131,18 @@
                             <form action="{{route('auth_register')}}" method="post">
                                 <input type="text" id="firstname" name="fname" placeholder="Firstname" required>
                                 <input type="text" id="lastname" name="lname" placeholder="Lastname" required>
+                                <input type="number" id="firstname" name="contact" placeholder="Contact" required>
+                               <select class="form-control" required name="license">
+                                    <option value="">Select License Type</option>
+                                     <option value="Prof">Prof</option>
+                                     <option value="Non-Prof">Non-Prof</option>
+                                 </select>   
                                 <input type="email" id="emailadd" name="email" placeholder="Email" required>
                                 <input type="text" id="username" name="username" placeholder="Username" required>
                                 <input type="password" id="password" name="password" placeholder="Password" required>
                                 <input type="password" placeholder="Confirm Password" required name="repeat_password">
                                 <label for="input-val1">
-
+                                 
                                 <input type="checkbox" id='input-val1' required> <span>I agree with the </span>
                                 <a href="">Terms and Conditions</a>
                                 </label>

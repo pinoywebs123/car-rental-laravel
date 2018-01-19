@@ -98,7 +98,7 @@
                     <li >
                       <a href="{{route('admin_home')}}" ><i class="glyphicon glyphicon-home pull-right"></i> Home</a>
                     </li>
-                    <li>
+                    <li class="active">
                       <a href="{{route('admin_message')}}" ><i class="glyphicon glyphicon-envelope pull-right"></i> Meessage</a>
                     </li>
                     <li >
@@ -110,7 +110,7 @@
                      
                     
                      
-                    <li class="active">
+                    <li >
                       <a href="{{route('admin_custoemr')}}" ><i class="glyphicon glyphicon-tasks pull-right"></i> Customers</a>
                     </li>
                 </ul>
@@ -120,21 +120,18 @@
 
         <div id="page-wrapper">
           <div class="row">
-            <h1 class="text-center">Customer List</h1>
+             <h1 class="text-center">Message List</h1>
 
-            
-            <table class="table">
+             <table class="table">
                 <thead>
                   <tr>
                     <th>Name</th>
-                    <th>Email</th>
-                    <th>Username</th>
-                    <th>Registered Date</th>
+                    <th>Status</th>
+                    <th>Date</th>
                     <th>Actions</th>
                   </tr>
                 </thead>
              </table>
-
           </div>
 
         </div>

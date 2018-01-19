@@ -52,6 +52,8 @@ class AuthController extends Controller
     	$new_user->email =  $request['email'];
     	$new_user->password = bcrypt($request['password']);
     	$new_user->role_id = 2;
+        $new_user->contact = $request['contact'];
+        $new_user->license = $request['license'];
     	$new_user->save();
 
     	return redirect()->back()->with('success', 'You have registered successfully!');

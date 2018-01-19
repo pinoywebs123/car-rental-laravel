@@ -27,4 +27,8 @@ class AdminController extends Controller
     public function admin_custoemr(){
     	return view('admin.customer');
     }
+
+    public function admin_message(){
+        return view('admin.message');
+    }
 }

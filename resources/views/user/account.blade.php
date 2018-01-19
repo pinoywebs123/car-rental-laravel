@@ -94,11 +94,8 @@
                 <div class="row">
                     <div class="col-xs-12 padd-lr0">
                         <div class="wheel-start3-body clearfix marg-lg-t255 marg-lg-b75 marg-sm-t190 marg-xs-b30">
-                            <h3>Listing - List View</h3>
-                            <ol class="breadcrumb">
-                                <li><a href="#">Home</a></li>
-                                <li class="active">Listing</li>
-                            </ol>
+                             <h3>Account Information</h3>
+                              
                         </div>
                     </div>
                 </div>
@@ -117,10 +114,24 @@
                     <div class="row">
 
                         <div class="col-lg-4  col-md-6">
-                            <h1>Account Information</h1>
+                            <h1>Profile</h1>
+                            <ul>
+                                <li>Name: {{Auth::user()->fname}} {{Auth::user()->lname}}</li>
+                                <li>Email: {{Auth::user()->email}}</li>
+                            </ul>
                         </div>
                         
-                        
+                         <div class="col-lg-4  col-md-6">
+                            <h1>Messages</h1>
+                            <ul>
+                                <li>
+                                    <a href="#" class="btn btn-info btn-xs">New Message</a>
+                                </li>
+                                <li>
+                                    <span class="glyphicon glyphicon-envelope">Inbox</span>
+                                </li>
+                            </ul>
+                        </div>
                         
                        
                     </div>

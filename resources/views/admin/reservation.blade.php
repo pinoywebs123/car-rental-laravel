@@ -98,6 +98,9 @@
                     <li >
                       <a href="{{route('admin_home')}}" ><i class="glyphicon glyphicon-home pull-right"></i> Home</a>
                     </li>
+                    <li>
+                      <a href="{{route('admin_message')}}" ><i class="glyphicon glyphicon-envelope pull-right"></i> Meessage</a>
+                    </li>
                     <li >
                       <a href="{{route('admin_cars')}}" ><i class="glyphicon glyphicon-education pull-right"></i> Cars</a>
                     </li>
@@ -117,7 +120,7 @@
 
         <div id="page-wrapper">
           <div class="row">
-             <h1 class="text-center">Car List</h1>
+             <h1 class="text-center">Reservation List</h1>
 
              <table class="table">
                 <thead>

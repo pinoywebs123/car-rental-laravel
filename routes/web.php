@@ -88,4 +88,9 @@ Route::group(['prefix'=> 'admin'], function(){
 		'as'=> 'admin_custoemr',
 		'uses'=> 'AdminController@admin_custoemr'
 	]);
+
+	Route::get('/messages', [
+		'as'=> 'admin_message',
+		'uses'=> 'AdminController@admin_message'
+	]);
 });

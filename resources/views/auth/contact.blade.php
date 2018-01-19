@@ -139,135 +139,14 @@
                 </div>
             </div>
         </div>
-        <!-- ////////////////////////////////// -->
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="wheel-header text-center marg-lg-t85 marg-lg-b90  marg-md-t50">
-                        <h5>Say Hello! </h5>
-                        <h3>Send Us a <span>Message</span></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 padd-lr0">
-                    <div class="wheel-contact-form text-center marg-lg-b145">
-                        <div class="form">
-                            <input type="text" placeholder="Your Name *">
-                            <input type="text" placeholder="Your Email *">
-                            <input type="text" placeholder="Your URL (Optional)">
-                            <input type="text" placeholder="Subject*">
-                            <textarea   placeholder="Message *"></textarea>
-                            <button class="wheel-btn">Submit Message</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ///////////////////////////////////// -->
-        <div class="container-fluid padd-lr0">
-            <div class="row">
-                <div class="col-xs-12 padd-lr0">
-                    <div 
-                        class="wheel-map" 
-                        data-lat="14.679953" 
-                        data-lng="120.541868"  
-                        data-marker="images/marker.png" 
-                        data-zoom="10" 
-                        data-style="style-1"
-                        ></div>
-                </div>
-            </div>
-        </div>
+        
         <!-- /////////////////////////////// -->
-        <div class="wheel-subscribe wheel-bg2">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-md-6 padd-lr0">
-                        <div class="wheel-header">
-                            <h5>Newsletter Signup </h5>
-                            <h3>Subscribe & get<span> 20% </span> Off</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-6 padd-lr0">
-                        <form action="#">
-                            <input type="text" placeholder="Your Email Adddress">
-                            <button class="wheel-btn">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
         <!-- FOOTER -->
         <!-- ///////////////// -->
         <footer class="wheel-footer">
-            <img src="images/bg4.jpg" alt="" class="wheel-img">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3  col-sm-6  padd-lr0">
-                        <div class="wheel-address">
-                            <div class="wheel-footer-logo"><a href=""><img src="images/logo2.png" alt=""></a></div>
-                            <ul>
-                                <li><span><i class="fa fa-map-marker"></i>JP Rizal St, City of Balanga, 2100 Bataan <br>
-                                    Philippines  </span>
-                                </li>
-                                <li><a href=""><span><i class="fa fa-phone"></i> +639569281374</span></a></li>
-                                <li><a href=""><span><i class="fa fa-envelope"></i>contact@wheel-rental.com</span></a></li>
-                            </ul>
-                            <div class="wheel-soc">
-                                <a href="" class="fa fa-twitter"></a>
-                                <a href="" class="fa fa-facebook"></a>
-                                <a href="" class="fa fa-linkedin"></a>
-                                <a href="" class="fa fa-instagram"></a>
-                                <a href="" class="fa fa-share-alt"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6  padd-lr0">
-                        <div class="wheel-footer-item">
-                            <h3>Useful Links</h3>
-                            <ul>
-                                <li><a href="" class="">About us</a></li>
-                                <li><a href="" class="">Customer Service</a></li>
-                                <li><a href="" class="">Contact Us</a></li>
-                                <li><a href="" class="">Safety Recall</a></li>
-                                <li><a href="" class="">Privacy policy</a></li>
-                                <li><a href="" class="">Site Map</a></li>
-                                <li><a href="" class="">Terms & condition</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-6  padd-lr0">
-                        <div class="wheel-footer-item ">
-                            <h3>Vehicles</h3>
-                            <ul>
-                                <li><a href="" class="">Exotic Cars</a></li>
-                                <li><a href="" class="">SUVs</a></li>
-                                <li><a href="" class="">Trucks</a></li>
-                                <li><a href="" class="">Mini Vans</a></li>
-                                <li><a href="" class="">Moving Trucks</a></li>
-                                <li><a href="" class="">Vans</a></li>
-                                <li><a href="" class="">RVs</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 padd-lr0">
-                        <div class="wheel-footer-gallery">
-                            <h3>Photo Gallery</h3>
-                            <div class="  clearfix">
-                                <div class="wheel-footer-galery-item"><a href=""><img src="images/i11.jpg" alt=""></a></div>
-                                <div class="wheel-footer-galery-item"><a href=""><img src="images/i12.jpg" alt=""></a></div>
-                                <div class="wheel-footer-galery-item"><a href=""><img src="images/i13.jpg" alt=""></a></div>
-                                <div class="wheel-footer-galery-item"><a href=""><img src="images/i14.jpg" alt=""></a></div>
-                                <div class="wheel-footer-galery-item"><a href=""><img src="images/i15.jpg" alt=""></a></div>
-                                <div class="wheel-footer-galery-item"><a href=""><img src="images/i16.jpg" alt=""></a></div>
-                                <div class="wheel-footer-galery-item"><a href=""><img src="images/i17.jpg" alt=""></a></div>
-                                <div class="wheel-footer-galery-item"><a href=""><img src="images/i18.jpg" alt=""></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
+            
         </footer>
         <div class="wheel-footer-info wheel-bg6">
             <div class="container">
